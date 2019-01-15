@@ -1,0 +1,39 @@
+--- Classification ---
+
+Selected k for kNN:  17
+kNN cross-validation average error for the selected k: 0.13
+kNN cross-validation standard deviation of the error for the selected k: 0.0509901951359
+
+Selected regularizer (C) for logistic regression:  10.0  (larger values imply less regularization)
+Logreg cross-validation average error for the selected C: 0.12
+Logreg cross-validation standard deviation of the error for the selected C: 0.06
+
+Logreg has a better cross-validation score than kNN with 0.12 vs 0.13
+
+--- Regression ---
+
+Selected parameter for linreg and variation1 data: 1
+linreg cross-validation average error for variation1 data: 0.20590100255729174
+linreg cross-validation standard deviation of the error for variation1 data: 0.14634624985398925
+
+Selected parameter for ridgereg and variation1 data: 3.3000000000000003
+ridgereg cross-validation average error for variation1 data: 0.11104423519368649
+ridgereg cross-validation standard deviation of the error for variation1 data: 0.022490244530031994
+
+Selected parameter for linreg and variation2 data: 1
+linreg cross-validation average error for variation2 data: 0.12169742333675453
+linreg cross-validation standard deviation of the error for variation2 data: 0.008957960228858461
+
+Selected parameter for ridgereg and variation2 data: 0.0
+ridgereg cross-validation average error for variation2 data: 0.12169742333678366
+ridgereg cross-validation standard deviation of the error for variation2 data: 0.008957960228842706
+
+Selected parameter for linreg and airfoil data: 1
+linreg cross-validation average error for airfoil data: 0.277723425844303
+linreg cross-validation standard deviation of the error for airfoil data: 0.014553491594176923
+
+Selected parameter for ridgereg and airfoil data: 4.0
+ridgereg cross-validation average error for airfoil data: 0.27771722491099593
+ridgereg cross-validation standard deviation of the error for airfoil data: 0.01449022793545249
+
+Selected parameter for Linear regression does not matter. Ridge regression with a regularizer equal to 0 is equivalent to linear regression.
